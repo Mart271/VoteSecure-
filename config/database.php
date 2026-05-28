@@ -8,9 +8,9 @@ define('DB_USER',     getenv('DB_USER')     ?: 'root');
 define('DB_PASS',     getenv('DB_PASS')     ?: '');
 define('DB_CHARSET',  'utf8mb4');
 
-define('QWEN_API_KEY',  'sk-16c472bae4234c27b924c73ab272fde2');
-define('QWEN_API_URL',  'https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions');
-define('QWEN_MODEL',    'qwen3.6-plus');
+define('QWEN_API_KEY',  '');
+define('QWEN_API_URL',  '');
+define('QWEN_MODEL',    '');
 
 define('APP_NAME',    'VoteSecure');
 define('APP_VERSION', '1.0.0');
